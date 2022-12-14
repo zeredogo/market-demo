@@ -1,3 +1,5 @@
 pragma solidity ^8.5.6;
 
-Transaction {}
+Transaction {
+    string Location;
+}
