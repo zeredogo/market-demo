@@ -4,4 +4,5 @@ Transaction {
     string Location;
     uint256 Total;
     uint256 Grade;
+    string Destination;
 }
