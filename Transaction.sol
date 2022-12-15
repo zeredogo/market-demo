@@ -5,4 +5,8 @@ Transaction {
     uint256 Total;
     uint256 Grade;
     string Destination;
+
+    function data () {
+        
+    }
 }
