@@ -6,7 +6,7 @@ Transaction {
     uint256 Grade;
     string Destination;
 
-    function data (string memo) {
+    function data (string memory ) {
 
     }
 }
