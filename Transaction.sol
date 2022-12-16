@@ -1,6 +1,6 @@
 pragma solidity ^8.5.6;
 
-Transaction {
+contract Transaction {
     string Location;
     uint256 Total;
     uint256 Grade;
