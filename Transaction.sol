@@ -7,6 +7,6 @@ contract Transaction {
     string Destination;
 
     function data (string memory _myProfile) {
-        re
+        retu
     }
 }
