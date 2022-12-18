@@ -5,8 +5,9 @@ contract Transaction {
     uint256 Total;
     uint256 Grade;
     string Destination;
+    strikng
 
     function data (string memory _myProfile) {
-        return _myPro
+        return _myProfile
     }
 }
