@@ -6,7 +6,7 @@ contract Transaction {
     uint256 Grade;
     string Destination;
     string Data;
-    string Induc
+    string Inducti
 
     function data (string memory _myProfile) {
         return _myProfile
