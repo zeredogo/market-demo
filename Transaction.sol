@@ -6,9 +6,9 @@ contract Transaction {
     uint256 Grade;
     string Destination;
     string Data;
-    string Induction
+    string Induction;
 
-    function data (string memory _myProfile) {
+    function data (string memory _myProfile) view {
         return _myProfile
     }
 }
