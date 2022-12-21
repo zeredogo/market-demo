@@ -8,7 +8,7 @@ contract Transaction {
     string Data;
     string Induction;
 
-    function data (string memory _myProfile) view {
+    function data (string memory _myProfile) view public {
         return _myProfile
     }
 }
