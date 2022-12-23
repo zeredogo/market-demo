@@ -10,5 +10,7 @@ contract Transaction {
 
     function data (string memory _myProfile) view public {
         return _myProfile
-    }
+    },
+
+    fun
 }
