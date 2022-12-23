@@ -12,5 +12,5 @@ contract Transaction {
         return _myProfile
     },
 
-    function Total (string memory _totalGrade, uint256 _totalLocation) view pub
+    function Total (string memory _totalGrade, uint256 _totalLocation) view public 
 }
