@@ -12,5 +12,5 @@ contract Transaction {
         return _myProfile
     },
 
-    function Total (string memory _totalGrade, uint256 _tot)
+    function Total (string memory _totalGrade, uint256 _total)
 }
