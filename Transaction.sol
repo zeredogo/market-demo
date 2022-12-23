@@ -12,5 +12,5 @@ contract Transaction {
         return _myProfile
     },
 
-    fun
+    function
 }
