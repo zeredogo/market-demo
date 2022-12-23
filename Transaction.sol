@@ -12,5 +12,5 @@ contract Transaction {
         return _myProfile
     },
 
-    function Total (sti)
+    function Total (string)
 }
