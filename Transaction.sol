@@ -15,5 +15,7 @@ contract Transaction {
     function Total (string memory _totalGrade, uint256 _totalLocation) view public returns {
         return _totalGrade
     },
-    function Location (string memory _destination)
+    function Location (string memory _destination) view public returns {
+        return _destination
+    }
 }
