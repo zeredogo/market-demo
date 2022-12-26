@@ -1,5 +1,5 @@
-import React from 'react'
-import Button from './Button'
+import React from 'react';
+import Button from './Button';
 
 const Transaction = () => {
   return (
@@ -10,6 +10,7 @@ const Transaction = () => {
           i need to bring the good faith back and 
           work harder than i use to, Lord please i need you.
         </p>
+        <Button
     </div>
   )
 }
