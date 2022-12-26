@@ -5,6 +5,9 @@ const Transaction = () => {
     <div>
         <h1>This is the start of a new begining.</h1>
         <h2> May the Lord guild me on this path</h2>
+        <p>I started this with a good faith,
+          i should 
+        </p>
     </div>
   )
 }
