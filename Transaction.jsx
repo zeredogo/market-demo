@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from './Button';
 
-const Transaction = () => {
+const Transaction = ({name}) => {
   return (
     <div>
         <h1>This is the start of a new begining.</h1>
@@ -10,7 +10,7 @@ const Transaction = () => {
           i need to bring the good faith back and 
           work harder than i use to, Lord please i need you.
         </p>
-        <Button />
+        <Button name={name}/>
     </div>
   )
 }
