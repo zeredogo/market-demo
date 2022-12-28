@@ -4,6 +4,7 @@ const Button = ({name}) => {
   return (
     <div>
       <h1>{name}</h1>
+      <p></p>
     </div>
   )
 }
