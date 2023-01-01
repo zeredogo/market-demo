@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './Button';
+import App from './app.css';
 
 const Transaction = ({name}) => {
   return (
