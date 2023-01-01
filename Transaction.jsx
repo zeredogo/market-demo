@@ -5,11 +5,11 @@ import Body from './Body';
 
 const Transaction = ({name}) => {
   return (
-    <div>
+    <>
         <App />
         <Body />
         <Button name={name}/>
-    </div>
+    </>
   )
 }
 
