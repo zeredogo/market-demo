@@ -19,6 +19,6 @@ contract Transaction {
         return _destination
     }
     function Grade (string memory _grade ) view public returns {
-        
+        return 
     }
 }
