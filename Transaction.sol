@@ -18,4 +18,5 @@ contract Transaction {
     function Location (string memory _destination) view public returns {
         return _destination
     }
+    function Grade ()
 }
