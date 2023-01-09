@@ -9,16 +9,16 @@ contract Transaction {
     string Induction;
 
     function data (string memory _myProfile) view public returns {
-        return _myProfile
+        return _myProfile;
     },
 
     function Total (string memory _totalGrade, uint256 _totalLocation) view public returns {
-        return _totalGrade
+        return _totalGrade;
     },
     function Location (string memory _destination) view public returns {
-        return _destination
+        return _destination;
     }
     function Grade (string memory _grade ) view public returns {
-        return 
+        return  _grade;
     }
 }

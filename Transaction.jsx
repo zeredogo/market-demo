@@ -3,7 +3,7 @@ import Button from './Button';
 import App from './app.css';
 import Body from './Body';
 
-const Transaction = ({name}) => {
+const Transaction = ({name, grade}) => {
   return (
     <>
         <App />
