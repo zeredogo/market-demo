@@ -7,7 +7,7 @@ const Transaction = ({name, grade}) => {
   return (
     <>
         <App />
-        <Body grade={} />
+        <Body grade={grade} />
         <Button name={name}/>
     </>
   )
