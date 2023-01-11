@@ -8,3 +8,7 @@
     border-radius: 5rem;
     border: 6rem;
 }
+.note {
+    color: black;
+    background-color: gold;
+}
