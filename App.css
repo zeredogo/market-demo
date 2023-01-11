@@ -11,4 +11,7 @@
 .note {
     color: black;
     background-color: gold;
+    border-radius: 5rem;
+    border-color: dimgray;
+    box-shadow: 3rem;
 }
