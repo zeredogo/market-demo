@@ -7,6 +7,8 @@ contract Transaction {
     string Destination;
     string Data;
     string Induction;
+    address Owner;
+    
 
     function data (string memory _myProfile) view public returns {
         return _myProfile;
