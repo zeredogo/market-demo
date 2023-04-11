@@ -29,4 +29,8 @@ contract Transaction {
     function Owner (address _owner)view public payable returns {
         return _owner;
     },
+
+    function Betting (int _betting) view public returns {
+        return _betting;
+    }
 }
