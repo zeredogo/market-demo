@@ -8,4 +8,8 @@ contract MyContract {
     function getName() public view returns(string memory) {
         return name;
     }
+
+    function resetName() public {
+        name = "Example 1";
+    }
 }
