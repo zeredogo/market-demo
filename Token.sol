@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Unlicense
-pragma solidity ^0.8.0;
+pragma solidity ^5.9.7;
 
 contract Token is Ownable, MinterRole, ERC721Full {
     using SafeMath for uint;
