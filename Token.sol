@@ -11,4 +11,8 @@ contract Token is Ownable, MinterRole, ERC721Full {
         _mintWithTokenURI(_to, _tokenURI);
         return true;
     }
+
+    function _mintWithTokenURI(address _to, string memory _tokenURI) internal {
+        uint
+    }
 }
