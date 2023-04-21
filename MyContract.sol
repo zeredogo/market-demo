@@ -17,6 +17,10 @@ contract MyContract {
         return myMapping[_id];
     }
 
+    function set(uint _id, string memory _value) public {
+        myMapping[_id] = _value;
+    }
+
     function getName() public view returns(string memory) {
         return name;
     }
