@@ -7,7 +7,7 @@ contract MyContract {
     string internal name2 = "Name 3";
     string public name3 = "Name 4";
 
-    mapping(uint => string)
+    mapping(uint => string) public myMapping;
 
     function setName(string memory _name) public {
         name = _name;
