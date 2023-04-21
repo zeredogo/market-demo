@@ -28,4 +28,9 @@ contract MyContract {
     function resetName() public {
         name = "Example 1";
     }
+
+    function remove(uint _id) public {
+        // Resets the value to the default value.
+        delete myMapping[_id];
+    }
 }
