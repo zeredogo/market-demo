@@ -42,4 +42,5 @@ contract Transaction {
             return 'odd';
         }
     }
+    function evenOrOdd2(uint x) public pure returns (string memory) {}
 }
