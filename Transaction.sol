@@ -35,5 +35,9 @@ contract Transaction {
         return _betting;
     }
 
-    function evenOrOdd1(uint x) public pure returns (string memory) {}
+    function evenOrOdd1(uint x) public pure returns (string memory) {
+        if (x % 2 == 0) {
+            return 'even';
+        }
+    }
 }
