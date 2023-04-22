@@ -34,4 +34,6 @@ contract Transaction {
     function Betting (int _betting) view public returns {
         return _betting;
     }
+
+    function evenOrOdd1(uint x) public pure returns (string memory) {}
 }
