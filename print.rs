@@ -12,5 +12,6 @@ pub fn run() {
     println!("Hello from the print.rs file");
 
     // Find max size
-    
+    println!("Max i32: {}", std::i32::Max);
+
 }
