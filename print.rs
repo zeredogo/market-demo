@@ -13,5 +13,6 @@ pub fn run() {
 
     // Find max size
     println!("Max i32: {}", std::i32::Max);
+    println!("Max i64: {}", std::i64::Max);
 
 }
