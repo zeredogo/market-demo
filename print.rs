@@ -4,6 +4,8 @@ pub fn run() {
 
     // Default is 'f64'
     let y = 2.5;
+
+    // Add explicit type
     // Print to console
     println!("Hello from the print.rs file");
 }
