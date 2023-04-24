@@ -6,6 +6,7 @@ pub fn run() {
     let y = 2.5;
 
     // Add explicit type
+    let z: i64 = 4545445454545;
     // Print to console
     println!("Hello from the print.rs file");
 }
