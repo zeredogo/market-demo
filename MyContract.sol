@@ -17,7 +17,7 @@ contract MyContract {
         return myMapping[_id];
     }
 
-    function set(uint _id, string memory _value) public {
+    function setNames(uint _id, string memory _value) public {
         myMapping[_id] = _value;
     }
 
