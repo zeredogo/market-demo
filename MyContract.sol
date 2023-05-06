@@ -14,8 +14,8 @@ contract MyContract {
         name = _name;
     }
 
-    function getNames(string  _names, uint _id) public view returns (string memory) {
-        return myMapping[_id];
+    function getNames(string  _names) public view returns (string memory) {
+        return _names;
     }
 
     function setNames(uint _id, string memory _value) public {
