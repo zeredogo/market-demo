@@ -14,5 +14,5 @@ contract myNFT is ERC721, Ownable {
     function getName() pure public {
         return NAME;
     }
-    function resetName()
+    function resetName() public{}
 }
