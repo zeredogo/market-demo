@@ -6,7 +6,7 @@ contract myNFT is ERC721, Ownable {
     uint256 public constant MAX_SUPPLY = 10;
     uint256 public constant PRICE = 0.01 ether;
     string public NAME = "Paul";
-    address  
+    address ADDRESS 
     
 
     function setName(string memory _name) public {
@@ -18,4 +18,5 @@ contract myNFT is ERC721, Ownable {
     function resetName() public{
         delete NAME;
     }
+    fu
 }
