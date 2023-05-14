@@ -19,6 +19,6 @@ contract myNFT is ERC721, Ownable {
         delete NAME;
     }
     function writeAddress(uint256 _address) public {
-        ADDRESS 
+        ADDRESS = _address;
     }
 }
