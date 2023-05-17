@@ -7,6 +7,7 @@ contract myNFT is ERC721, Ownable {
     uint256 public constant PRICE = 0.01 ether;
     string public NAME = "Paul";
     address Owner = 0x2e23bgb3455ad67897534g57ng45657;
+    string
     
 
     function setName(string memory _name) public {
