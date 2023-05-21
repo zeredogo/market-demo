@@ -23,6 +23,6 @@ contract myNFT is ERC721, Ownable {
         ADDRESS = _owner;
     }
     function setAction(string memory _action) public view returns {
-        return Ac
+        return Act
     }
 }
