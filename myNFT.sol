@@ -27,6 +27,6 @@ contract myNFT is ERC721, Ownable {
         return Action;
     }
     function setMeaningless(string memory means) public view {
-        return me
+        return mean
     }
 }
