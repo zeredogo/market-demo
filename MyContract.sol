@@ -19,7 +19,9 @@ contract MyContract {
         Price = _price;
     }
 
-    function getPrice(uint _price) internal view returns ()
+    function getPrice(uint _price) internal view returns (uint) {
+        return _price;
+    }
 
     function getNames(string  _names) public view returns (string memory) {
         return _names;
