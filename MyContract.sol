@@ -7,7 +7,7 @@ contract MyContract {
     string internal name2 = "Name 3";
     string public name3 = "Name 4";
     string public names;
-    uint pu
+    uint pub
 
     mapping(uint => string) public myMapping;
 
