@@ -7,7 +7,7 @@ contract MyContract {
     string internal name2 = "Name 3";
     string public name3 = "Name 4";
     string public names;
-    uint public
+    uint public p
 
     mapping(uint => string) public myMapping;
 
