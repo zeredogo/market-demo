@@ -15,7 +15,7 @@ contract MyContract {
         name = _name;
     }
 
-    fu
+    fun
 
     function getNames(string  _names) public view returns (string memory) {
         return _names;
