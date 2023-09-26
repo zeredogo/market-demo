@@ -15,7 +15,7 @@ contract MyContract {
         name = _name;
     }
 
-    fun
+    func
 
     function getNames(string  _names) public view returns (string memory) {
         return _names;
