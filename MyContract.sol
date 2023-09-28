@@ -15,7 +15,7 @@ contract MyContract {
         name = _name;
     }
 
-    function setPrice(uin)
+    function setPrice(uint)
 
     function getNames(string  _names) public view returns (string memory) {
         return _names;
