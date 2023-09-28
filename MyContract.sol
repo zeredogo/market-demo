@@ -7,7 +7,7 @@ contract MyContract {
     string internal name2 = "Name 3";
     string public name3 = "Name 4";
     string public names;
-    uint public price;
+    uint public Price;
 
     mapping(uint => string) public myMapping;
 
@@ -15,7 +15,7 @@ contract MyContract {
         name = _name;
     }
 
-    function setPrice(uint)
+    function setPrice(uint _p)
 
     function getNames(string  _names) public view returns (string memory) {
         return _names;
