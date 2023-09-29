@@ -15,7 +15,7 @@ contract MyContract {
         name = _name;
     }
 
-    function setPrice(uint _price) external return
+    function setPrice(uint _price) external returns {}
 
     function getNames(string  _names) public view returns (string memory) {
         return _names;
