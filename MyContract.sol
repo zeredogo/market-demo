@@ -28,7 +28,7 @@ contract MyContract {
     }
 
     function getName() public view returns(string memory) {
-        return name;
+        return Name;
     }
 
     function resetName() public {
