@@ -32,7 +32,7 @@ contract MyContract {
     }
 
     function resetName() public {
-        name = "Example 1";
+        Name = "Example 1";
     }
 
     function remove(uint _id) public {
