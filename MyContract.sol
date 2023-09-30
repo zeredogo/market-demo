@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 contract MyContract {
-    string name = "Name 1";
+    string Name = "Name 1";
     string private name1 = "Name 2";
     string internal name2 = "Name 3";
     string public name3 = "Name 4";
