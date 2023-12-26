@@ -11,7 +11,7 @@ contract MyContract {
 
     mapping(uint => string) public myMapping;
 
-    function setName(string memory _name) public vi{
+    function setName(string memory _name) public vie{
         Name = _name;
     }
 
