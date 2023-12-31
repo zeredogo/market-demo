@@ -26,7 +26,7 @@ contract myNFT is ERC721, Ownable {
     function setAction(string memory _action) public view returns {
         return _action;
     }
-    function setMeaningless(string memory means) public view {
+    function setMeaningless(string memory _means) public view {
         return means = grace;
     }
 }
