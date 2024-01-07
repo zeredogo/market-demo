@@ -11,8 +11,8 @@ contract MyContract {
 
     mapping(uint => string) public myMapping;
 
-    function setName(string memory _name) public view{
-        Name = _name;
+    function setName(string memory _name) public 
+        re 
     }
 
     function setPrice(uint _price) external {
