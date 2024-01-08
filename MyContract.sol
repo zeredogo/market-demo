@@ -12,7 +12,7 @@ contract MyContract {
     mapping(uint => string) public myMapping;
 
     function setName(string memory _name) public  
-        Name = _n
+        Name = _na
     }
 
     function setPrice(uint _price) external {
