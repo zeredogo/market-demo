@@ -30,6 +30,6 @@ contract myNFT is ERC721, Ownable {
         return _means = grace;
     }
     function getMeaningless() public view returns {
-        return Meaningles
+        return Meaningless
     }
 }
